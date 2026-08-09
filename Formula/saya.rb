@@ -5,19 +5,19 @@ class Saya < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/databook-studio/saya-cli/releases/download/v0.1.2/saya-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "ddc4c8e3987e917e621e33921c60f4c80c02472f6b6b976d9747ba9cd03003bd"
+      url "https://github.com/databook-studio/saya-cli/releases/download/v0.2.0/saya-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e476dd7d617af5fbacf177185ae130e48137e0572e209ee841333c9be16e693e"
     end
     on_intel do
-      url "https://github.com/databook-studio/saya-cli/releases/download/v0.1.2/saya-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "35b84e093f323de06fa979b927d993ebc5fd09e4823dd19bb59364a05fc916c5"
+      url "https://github.com/databook-studio/saya-cli/releases/download/v0.2.0/saya-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d463a4401f12b8f7cbbb36651d500c668405eed38e1605b467faf816b03937c8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/databook-studio/saya-cli/releases/download/v0.1.2/saya-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "959172358278ef5694f77d86e316f76dc26c41f0dca10152c13bfdd250a9403e"
+      url "https://github.com/databook-studio/saya-cli/releases/download/v0.2.0/saya-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce4c8737a7ebdcb6280d4c5a8b2cd48c563d99285ef2596003c4fc2163f238c0"
     end
   end
 
